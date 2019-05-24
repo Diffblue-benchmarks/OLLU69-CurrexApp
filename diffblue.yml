@@ -156,183 +156,27 @@ phases:
       # Set an upper bound on loop unwinding.
       unwind: 6
 units:
-# Target TGF: 121.5
-#  >methods=9
-#  >complexity=34
-#  >construction=11.25
-#  >dependency=1.5
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/DataBase.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/DataBase.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Operation.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Operation.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Reference.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Reference.java
-# Target TGF: 42.0
-#  >methods=11
-#  >complexity=82
-#  >construction=2.0
-#  >dependency=1.33333333333
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/service/AdminServiceImpl.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/service/AdminServiceImpl.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/service/AdminService.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/service/AdminService.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/AdminDao.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/AdminDao.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/NBURate.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/NBURate.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Reference.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Reference.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/PBRate.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/PBRate.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.java
-# Target TGF: 37.5
-#  >methods=5
-#  >complexity=75
-#  >construction=4.0
-#  >dependency=2.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/AdminJDBCTemplateDao.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/AdminJDBCTemplateDao.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/AdminDao.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/AdminDao.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Reference.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Reference.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/CurrexMapper.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/CurrexMapper.java
-# Target TGF: 331.0
-#  >methods=15
-#  >complexity=331
-#  >construction=3.0
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/NBURate.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/NBURate.java
-# Target TGF: 373.0
-#  >methods=19
-#  >complexity=373
-#  >construction=3.0
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Reference.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Reference.java
-# Target TGF: 31.3333333333
-#  >methods=3
-#  >complexity=94
-#  >construction=2.0
-#  >dependency=0.666666666667
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData$1.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData$2.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/ExchangeRateData.java
-# Target TGF: 460.0
-#  >methods=21
-#  >complexity=460
-#  >construction=3.0
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Operation.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Operation.java
-# Target TGF: 31.5
-#  >methods=13
-#  >complexity=42
-#  >construction=2.25
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl$Execute.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/model/Operation.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/model/Operation.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/DataBase.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/DataBase.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/config/DbSettings.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/config/DbSettings.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl$OnConnection.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/UserDaoJDBCImpl.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/CurrexMapper.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/CurrexMapper.java
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/UserDao.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/UserDao.java
-# Target TGF: 219.0
-#  >methods=8
-#  >complexity=219
-#  >construction=3.0
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/config/DbSettings.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/config/DbSettings.java
-# Target TGF: 275.0
-#  >methods=13
-#  >complexity=275
-#  >construction=3.0
-#  >dependency=3.0
- - target:
-   - dir: target/classes
-     file: ua/dp/ollu/currex/currex_app/repository/PBRate.class
-     sourceDir: src/main/java
-     sourceFile: ua/dp/ollu/currex/currex_app/repository/PBRate.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: target/classes
+      file: ua/dp/ollu/currex/currex_app/controller/AppController.class
+      sourceDir: src/main/java
+      sourceFile: ua/dp/ollu/currex/currex_app/controller/AppController.java
+    # Child of AppController.class
+    # Child Coverage: Unknown %
+    - dir: target/classes
+      file: ua/dp/ollu/currex/currex_app/service/UserService.class
+      sourceDir: src/main/java
+      sourceFile: ua/dp/ollu/currex/currex_app/service/UserService.java
+    # Child of AppController.class
+    # Child Coverage: Unknown %
+    - dir: target/classes
+      file: ua/dp/ollu/currex/currex_app/service/AdminService.class
+      sourceDir: src/main/java
+      sourceFile: ua/dp/ollu/currex/currex_app/service/AdminService.java
+    # Child of AppController.class
+    # Child Coverage: Unknown %
+    - dir: target/classes
+      file: ua/dp/ollu/currex/currex_app/model/Operation.class
+      sourceDir: src/main/java
+      sourceFile: ua/dp/ollu/currex/currex_app/model/Operation.java
